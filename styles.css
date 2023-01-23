@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", Tahoma, Sans-Serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    gap: 20px;
+}
+img {
+    height: 50px;
+    width: auto;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
